@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Peddana');
+
+body {
+    background-color: #146eb4;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#custom-search-input {
+    position: absolute;
+    top: 400px;
+    width: 40%;
+}
+
+.div2 {
+    margin-top: 110px;
+    font-family: 'Peddana';
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #ff9900;
+    color: #146eb4;
+}
+
+.hmm {
+    background-color: #ff9900;
+    cursor: pointer;
+    transition-duration: 1.2s;
+}
+
+.hmm:hover {
+    background-color: #62C195;
+}
+
+.fontStyle {
+    font-family: 'Peddana';
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-size: 2em;
+}
+
+.randStyle {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-family: 'Peddana';
+    font-size: 14px;
+}
+
+
+.div2 a {
+    color: #33332C;
+    text-decoration: none;
+}
+
+.div2 a:hover 
+{
+     color: #33332C;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.div2 a:visited 
+{
+     color: #33332C;
+     text-decoration: inherit; 
+     cursor:pointer;  
+}
+
+
+hr.style1{
+	border-top: 1px solid #33332C;
+    opacity: 0.2;
+}
